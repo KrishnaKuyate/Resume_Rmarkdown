@@ -1,0 +1,198 @@
+---
+title: "Krishna Kuyate (BI Consultant | Data Analyst)"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+<div style="width:300px; height:300px">
+![](PK.jpg)
+</div>
+
+
+
+
+
+
+1. **Business Intelligence Platform (MicroStrategy) Administrator** , **Developer** and **Automation Engineer** with **3+ years** of experience. Have experience in system manageability ,domain - delivering ,end-end management capabilities and interoperability.
+
+2. Collaborated with business partners, project managers, and technology teams to identify and analyse business requirements and convert the same to technical specifications. Provide technical guidance to onsite and offsite programmers in the design, development, deployment, maintenance and adhere to the full **Software Development Lifecycle (SDLC)** and **Agile methodology**.
+
+3. **Lead the user story grooming**,**Design** and **Development of Dashboard and Report** for **Banking and Insurance domain**, testing and implementation utilizing MicroStrategy Business Intelligence platform .
+
+4. As a Automation Engineer and MSTR Admin , developed many automated solutions for the clients ,which have helped in saving manual efforts and added additional efficiency and robustness to the environment.
+
+
+
+#{.tabset}
+
+##SKILLS
+
+1. **Business Intelligence Tools** - MicroStrategy 9x,10x 
+2. **RDBMS** – MS SQL Server 2008/2012, MySQL, Oracle SQL. 
+3. **Operating Systems** – Microsoft Windows XP/ 2003, Windows 7 & Windows Server 2012
+4. **Devops Tools**- Rational Team Concert (RTC), Release Lifecycle Management (RLM) 
+6. **Scheduling Tools**-Autosys,Operational Console.
+7. **Programming Language**-UNIX Shell Script,C,C#,R Language 
+8. **Content Development Tools** - Microsoft Excel, Microsoft Word, Microsoft PowerPoint. 
+
+```{r echo=FALSE}
+library(ggplot2)
+Skill_Name<-c("Data Analysis","Data Visualization","Programming","Business Intelligence","Team Management")
+Skill_rate<-c(7,9,8,9,10)
+Skill_set<-data.frame(Skill=Skill_Name,Rate=Skill_rate)
+ggplot(Skill_set,aes(x=Skill_set$Skill,y=Skill_set$Rate,fill=Skill))+geom_bar(stat = "identity",position="dodge")+
+  ggtitle("                           Key Skills")+
+  xlab("Skills")+ylab("")+theme(plot.title = element_text(color ="#669900",size = 18,face = "bold"),axis.text = element_text(angle = 45,hjust=1))
+
+
+```
+
+
+##EXPERIENCE
+
+A. Currently working  with **Accenture**  as a **BI Application Development Analyst**  since  Sept 2018.
+
+B. Working with **L & T Infotech ** as  **BI Software Engineer** from  **June 2015 -August 2018**.
+
+
+```{r echo=FALSE}
+library("timelineS")
+Events<-c("Dot-Net Developer(L&T Infotech)","BI Developer (L&T Infotech)","BI Analyst(Accenture)")
+Event_Dates<-as.Date(c("2015-06-17","2015-12-01","2018-09-01"))
+mj_life<-data.frame(Events,Event_Dates)
+timelineS(mj_life,line.width = 10,line.color = "#ffa31a",scale.font = 2,label.length = c(0.6,0.7,0.5,0.8),
+          label.color = "#4d2600",label.font = 2, point.color = "#336600")
+```
+
+
+
+##CERTIFICATION
+
+1. Udemy - Intelligence Analysis Certification
+2. Udemy Academy - Project Management Certification
+3. DataCamp - R Programming Certification
+4. MicroStrayegy - MSTR Analyst 10 Certitication
+5. IKM -C# Certification
+6. DataCamp - SQL For Data Science
+7. Udemy - R Data Visualization 
+8. Brainbench - RDBMS
+![Cerification](KA.jpg)
+
+
+##LANGUAGE
+
+```{r echo=FALSE}
+Language<-c("Marathi","Hindi","English")
+
+Lan_rate<-c(10,9,8)
+
+lan_df<-data.frame(Language,Lan_rate)
+
+ggplot(lan_df,aes(x=lan_df$Language,y=lan_df$Lan_rate,fill=Language))+geom_bar(stat = "identity",position="dodge")+
+  xlab("Language")+ylab("")+
+  theme(plot.title = element_text(color ="#669900",size = 18,face = "bold"),axis.text = element_text(angle = 45,hjust=1))+
+  coord_flip()
+```
+
+
+##EDUCATION
+
+**Bachelor of Engineering in Electronics &Telecommunication Engineering** From **D.Y.Patil college of Engineering,Pune (Pune University)** with **First Class**.
+
+```{r echo=FALSE}
+ed_level<-c("SSC","HSC","BE")
+Ed_kn_level<-c(9,8,10)
+
+ed_data<-data.frame(level=ed_level,rate=Ed_kn_level)
+
+ggplot(ed_data,aes(x=ed_data$level,y=ed_data$rate))+xlab("")+ylab("")+geom_point(size=ed_data$rate,color="#ff9966",na.rm = TRUE)+
+  theme(axis.text = element_text(size=15,colour = "#662200"))
+  
+```
+
+##WORK {.tabset .tabset-fade}
+
+###IPL Insight
+**Description:**
+Exploratory data analysis of Indian Premier League (Cricket) Ball-By-Ball Cricket Data.
+Research scope:Predicting the winner of the next season of IPL based on past data, Visualizations, Perspectives, etc
+
+**Role:**Data Analy
+st ,R Programmer
+
+![Project](P3.jpg)
+
+###RegInsight Reporting
+**Description:** 
+This project of CITI was an integration of Business Intelligence (BI) and Performance Management solution designed specifically for the Banking sector. It addresses the need for an easy and quick-to- implement BI solution, with a domain-based approach. This helps a bank to efficiently manage operations. It allows seamless data flow from source systems of a bank to Mart and helps to meet the regulatory reporting requirements.
+
+**Role:**MSTR Developer and MSTR Admin
+
+###MSTR Admin Tool
+**Description:**
+We have integrated and Automated more than 22 MSTR Admin Task on one Platform like Cube Refresh,Incremental Refresh ,Project Load-Unload ,Cube Load-Unload,Schema Update,User Creation ,DBI Add-Remove ,Kill Long Running Job,..etc .Developed and integrate MSTR Dashboard for System Analysis ,Error Analysis and troubleshooting .Developed and integrate Rt-view for system analysis.
+
+**Role:**Lead MSTR Developer and MSTR Admin
+
+###MSTR Log Tool
+
+**Description:**
+Log Repository tool developed for to fetch and stored various MSTR logs files from server.User can access logs file like DSS Error log , EM log ,Licence Manger Logs,MigrationSQL Logs,Query Merge Log.
+User can also access Licence Manger Audit Report.
+
+**Role:**Lead MSTR Developer ,MSTR Admin
+
+
+###LTI Bank System
+**Description:**
+The main objective of Online Bank Management System is to facilitate the bank employees as well as providing facilities to the customer.
+In this application we have implemented module :Withdrawal, Deposit, Fixed Deposit, Loan, Customer information, Account Information, reports, Account Enquiry etc.
+
+**Role:** Team Leader of Loan Module Team, UI Designer and Dot Net Developer
+
+
+
+
+
+##HONORS & AWARDS
+
+###Team Awards - Client Centricity:
+Won Project Awards in the category - Client Centricity for the Project USRRI (CITI – NA).
+
+###Best Student Award:
+Won this Awards in "Yogeshwar Vidyalaya" for the :
+
+1. Topper in the School 
+2. Won various essay writting compititions
+3. Won Drawing compitition
+4. Won Debate compititions
+5. Participated in Science Project events
+6. Successfully passed MTS,NTS,TMV exams
+![Award](LN.jpg)
+
+
+
+##CONTACT
+
+[MSTR Blog](https://krishnakuyate.wordpress.com/).....MicroStrategy Knowledge Sharing...!!!!
+
+[Linkedin](https://www.linkedin.com/in/krishnakuyate/)....Happy Linking, Let's Connect...!!!
+
+[GIT HUB](https://github.com/KrishnaKuyate)............Check Coding artifacts here....!!!!!!
+
+[Kaggle](https://www.kaggle.com/krishnakuyate).............Home of Data Science here..!!!!!!
+
+[MSTR Community](https://community.microstrategy.com/s/profile/00544000008HdJl?t=1537312932900)....Lets Discuss MicroStrategy..!!!
+
+![Connect](CN.jpg)
+
+
+
+
+
+
+
+
+
